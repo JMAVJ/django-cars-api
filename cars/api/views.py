@@ -4,7 +4,7 @@ from django.shortcuts import render, HttpResponse
 
 
 def index(request):
-    return HttpResponse('API')
+    return HttpResponse('Check https://github.com/JMAVJ/django-cars-api for documentation')
 
 
 def cars_brand(request, brand):
