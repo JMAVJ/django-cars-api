@@ -7,13 +7,9 @@ def index(request):
     return HttpResponse('API')
 
 
-def cars_by_brand(request):
+def cars_brand(request, brand):
     pass
 
 
-def cars_model(request):
-    pass
-
-
-def cars_brand_model(request):
+def cars_model(request, model):
     pass
